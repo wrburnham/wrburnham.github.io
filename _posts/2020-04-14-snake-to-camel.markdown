@@ -28,4 +28,4 @@ This quote is often attributed to Martin Fowler but he attributes it to Phil Kar
 
 I'm not really sure where terms such as snake case, camel case and even kebab case came from but there sure are a lot of them. One helpful rule in coding is consistent naming / code conventions.
 
-Sometimes it can be necessary to convert from one form to the other. To that end, I've created a small react project for doing just that. Check it out [here](https://wrburnham.github.io/etc/snake-to-camel) or view the [source code](https://github.com/wrburnham/snake-to-camel).
+Sometimes it can be necessary to convert from one form to the other. To that end, I've created a small react project for converting snake case to camel case. Check it out [here](https://wrburnham.github.io/etc/snake-to-camel) or view the [source code](https://github.com/wrburnham/snake-to-camel).
