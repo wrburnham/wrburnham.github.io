@@ -12,7 +12,7 @@ Underscores have long been used as word separators, such as when naming variable
 int some_number = 4;
 {% endhighlight %}
 
-which is typical of C, python and sometimes php
+which is typical of C, python and sometimes php, known as snake case
 
 and 
 
@@ -20,7 +20,7 @@ and
 int someNumber = 4;
 {% endhighlight %}
 
-which is typical of Java, C#, etc.
+which is typical of Java and C#, known as camel case.
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
 
