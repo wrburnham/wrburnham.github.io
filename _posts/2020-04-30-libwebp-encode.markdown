@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Snake Case to Camel Case"
+title:  "Client-side webp encoding"
 date:   2020-04-30 13:15:00 +0200
 categories: [react, webp, wasm]
 ---
