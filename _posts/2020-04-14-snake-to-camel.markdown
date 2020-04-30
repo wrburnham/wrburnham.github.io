@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Snake Case to Camel Case"
+title:  "Snake case, camel case and naming things"
 date:   2020-04-14 15:26:00 +0200
 categories: react
 ---
