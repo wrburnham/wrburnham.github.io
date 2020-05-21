@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A WordPress WebP Encoder"
+title:  "A WordPress webp encoder"
 date:   2020-05-21 18:36:00 +0200
 categories: [wordpress, webp, wasm]
 ---
