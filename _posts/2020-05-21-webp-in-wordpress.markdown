@@ -31,4 +31,4 @@ There are already several WordPress plugins out there that do the same thing but
 
 ## Write once, run anywhere
 
-This article ties into a larger concept, which was one of Java's original selling points: [write once, run anywhere](https://en.wikipedia.org/wiki/Write_once,_run_anywhere). Admittedly it's almost never that simple but in my experience as a Java developer so far, it's usually pretty nice to have code that "just works" from one platform to another.
+This article ties into a larger concept, which was one of Java's original selling points: [write once, run anywhere](https://en.wikipedia.org/wiki/Write_once,_run_anywhere). Admittedly it's almost never that simple but in my experience as a Java developer so far, it's usually pretty nice to have code that "just works" from one platform to another. That was the idea with this plugin, as all the php-based server-side webp solutions I've seen so far don't always work out of the box.
