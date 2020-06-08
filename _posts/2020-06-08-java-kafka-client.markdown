@@ -7,4 +7,4 @@ categories: [linux]
 
 This project is a small GUI utility (one window) written in Java for sending kafka messages. It's written in java 8 and uses the swing library. I chose not to use javafx only because I'm more familiar with swing.
 
-An executable jar is available [here](https://wrburnham.github.io/etc/kafka-producer-1.0.0.jar) as well as the [source code](https://github.com/wrburnham/kafka-producer).
+The [source code](https://github.com/wrburnham/kafka-producer) is available here. See the readme for building a standalone jar.
