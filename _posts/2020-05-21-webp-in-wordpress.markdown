@@ -15,19 +15,17 @@ The [previous post](https://wrburnham.github.io/react/webp/wasm/2020/04/30/libwe
 
 ## Packaging it as a WordPress plugin
 
-A friend of mine asked me if it was possible to create a plugin for WebP encoding in WordPress and so I set out to try.
+A friend of mine asked me if it was possible to create a plugin for WebP encoding in WordPress and so I set out to try. Writing the [source code](https://github.com/wrburnham/wp-webp-wasm) was broken down as follows:
 
-**Disclaimer**: I'm not a WordPress guy. In fact, the last time I did any work in php was years ago. Fortunately WordPress is quite well-documented so after a bit of study I could get to work.
-
-The [source code](https://github.com/wrburnham/wp-webp-wasm) is simple enough, as was planning how to write it. I broke the project down into the following steps.
-
-1. Create a small UI on the "edit post" page.
+1. Create a small UI on the "edit post" page for media library items.
 2. Bind the UI to the conversion logic from [this app](https://wrburnham.github.io/etc/libwebp-encode/).
-3. Create another small UI (plugin admin page) to handle a batch conversion (all files in the media library).
+3. Modify the UI from (2) to be able to handle all content as well as one single media library item.
 4. Create the appropriate backend hooks (actions) for points 1-3 and send data to the backend via ajax requests.
 5. Create a filter for swapping `.jpeg` and `.png` images with `.webp` where available on content rendering.
 
 There are already several WordPress plugins out there that do the same thing but one difference is all others require some form of server-side configuration. This is because php doesn't natively support webp without some kind of extension or invocation of external procedures. By moving the actual conversion to the client this problem is solved albeit at the expense of having to send the converted webp image to the server.
+
+The plugin is available on the WordPress plugin repository [here](https://wordpress.org/plugins/webp-wasm/).
 
 ## Write once, run anywhere
 
