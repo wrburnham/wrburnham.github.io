@@ -9,7 +9,7 @@ Making a carousel is a common task for many web developers. So what? This articl
 
 A linked list is a collection of nodes where each node points to (at least) another node.
 
-The simplest example is an ordinary linked list. Each node has some space to point to the next node in the chain. This is often taught (and then also often forgotten) in computer science classes. Here's a [quick refresher](https://www.geeksforgeeks.org/linked-list-set-1-introduction/).
+The simplest example is a singly linked list. Each node has some space to point to the next node in the chain. This is often taught (and then also often forgotten) in computer science classes. Here's a [quick refresher](https://www.geeksforgeeks.org/linked-list-set-1-introduction/).
 
 A doubly linked list is similar to the above but with an extra pointer for the previous element. So from any given node it is possible to go forward or backward. A common practical example of this is a track list in a CD player. You can skip to the next track or to the previous and when you hit the last track (you reach the end) or the first track (you reach the beginning) that's it.
 
