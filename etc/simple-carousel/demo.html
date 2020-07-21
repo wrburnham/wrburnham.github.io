@@ -1,0 +1,30 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./dist/style.css"/>
+        <style>
+            body {
+                line-height: 1.8rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Carousel Demo</h1>
+        <p>Here is a really basic carousel demo made using a circular doubly linked list. The <a href="./dist/carousel.js">javascript</a> takes care of toggling slides and the <a href="./dist/style.css">stylesheet</a> takes care of the rest. I'm not a css expert so it might be a bit ugly but it gets the job done for this simple demo.</p>
+        <div id="carousel">
+            <div>
+                A picture is worth a thousand words.
+            </div>
+            <div>
+                A journey of a thousand miles begins with a single step.
+            </div>
+            <div>
+                Beauty is in the eye of the beholder.
+            </div>
+        </div>
+        <script src="./dist/carousel.js"></script>
+        <script>
+            new Carousel("carousel").start(5000);
+        </script>
+    </body>
+</html>

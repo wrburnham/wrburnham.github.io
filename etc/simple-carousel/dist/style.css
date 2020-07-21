@@ -1,0 +1,53 @@
+.carousel__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 3rem;
+}
+
+.carousel__container > * {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: x-large;
+}
+
+.carousel__container > .current, .previous {
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+
+.carousel__container > .current {
+    display: block;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-timing-function: ease-in;
+}
+
+.carousel__container > .previous {
+    display: block;
+    opacity: 0;
+	animation-name: fadeOutOpacity;
+	animation-timing-function: ease-out;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOutOpacity {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
