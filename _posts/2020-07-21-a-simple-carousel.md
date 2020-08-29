@@ -2,7 +2,7 @@
 layout: post
 title:  "A simple carousel"
 date:   2020-07-21 17:44:00 +0200
-categories: javascript
+categories: [algorithms, javascript]
 ---
 
 Making a carousel is a common task for many web developers. So what? This article offers a practical application of a linked list, more specifically, a circular doubly linked list.
