@@ -50,10 +50,8 @@ Building this tree goes as follows:
 
 ```
      [root]
-       /\
-   PETER null
-    /\
- null null 
+       /
+   PETER 
 ```
 
 3. Insert `PIPER`. This term differs from `PETER` at bit index (0-based) 12. It will go to the left of `PETER`.
@@ -149,4 +147,10 @@ Building this tree goes as follows:
   PEPPERS   PICKLED
 ```
 
-This was a bit long, hopefully someone can find it useful. A practical example of this kind of thing is for fast lookups of words with a common prefix. An work-in-progress example is this [mobile app](https://github.com/wrburnham/en-es-dict-android). It loads an English-Spanish dictionary into memory (or Spanish-English if set that way). While an app like this could have been done with an sqlite database and a simple query for prefix searching (`select * where term like 'someth%'`), if correctly optimized, a raw data structure will use much less space and be faster.
+Note that this tree isn't perfectly balanced. If we consider reordering the initial data and numbering each row:
+
+This was a bit long, hopefully someone can find it useful. 
+
+A practical example of this kind of thing is for fast lookups of words with a common prefix. An work-in-progress example is this [mobile app](https://github.com/wrburnham/en-es-dict-android). It loads an English-Spanish dictionary into memory (or Spanish-English if set that way).
+
+See also [this javascript snippet](https://gist.github.com/wrburnham/953f8588f9bc3555f01f0f4762e4181c).
