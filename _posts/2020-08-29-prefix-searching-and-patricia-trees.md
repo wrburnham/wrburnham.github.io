@@ -5,7 +5,7 @@ date:   2020-08-29 08:00:00 +0200
 categories: [algorithms, javascript, java]
 ---
 
-*PATRICIA* stands for *P*ractical *A*lgorithm *T*o *R*etrieve *I*nformation *C*oded in *A*lphanumeric.
+**PATRICIA** stands for **P**ractical **A**lgorithm **T**o **R**etrieve **I**nformation **C**oded **I**n **A**lphanumeric.
 
 That's a bit of a mouthful but basically it's a binary radix tree. More information can be found on the [wikipedia page](https://en.wikipedia.org/wiki/Radix_tree) and there's a lot of other information out there.
 
