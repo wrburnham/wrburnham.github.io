@@ -149,6 +149,4 @@ Building this tree goes as follows:
 
 This was a bit long, hopefully someone can find it useful. 
 
-A practical example of this kind of thing is for fast lookups of words with a common prefix. A work-in-progress example is this [mobile app source code](https://github.com/wrburnham/en-es-dict-android) and its **unsigned apk** [executable for Android](https://github.com/wrburnham/en-es-dict-android/releases/download/1.0-debug/en-es-dict-1.0-debug.apk). It loads an English-Spanish dictionary into memory (or Spanish-English if set that way).
-
-See also [this javascript snippet](https://gist.github.com/wrburnham/953f8588f9bc3555f01f0f4762e4181c).
+A practical example of this kind of thing is for fast lookups of words with a common prefix. See also [this javascript snippet](https://gist.github.com/wrburnham/953f8588f9bc3555f01f0f4762e4181c).
